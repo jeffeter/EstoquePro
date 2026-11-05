@@ -82,14 +82,3 @@ Faça **backup antes** (`docs/IMPLANTACAO.md`, seção Backup).
 
 `admin` (acesso total), `gestor`, `tecnico`, `consulta` — o que cada um pode é editável na aba **Cargos**
 (catálogo de permissões em `server/src/modules/permissoes/catalogo.js`).
-
-## Documentação
-
-| Documento | Para quê |
-|---|---|
-| [docs/ARQUITETURA.md](docs/ARQUITETURA.md) | como o sistema é organizado, ciclo de uma requisição, regras de negócio importantes |
-| [docs/API.md](docs/API.md) | todos os endpoints, permissões exigidas e formatos |
-| [docs/BANCO-DE-DADOS.md](docs/BANCO-DE-DADOS.md) | tabelas, relacionamentos e como criar migrações |
-| [docs/SEGURANCA.md](docs/SEGURANCA.md) | controles implementados, rotação de segredos, riscos conhecidos |
-| [docs/IMPLANTACAO.md](docs/IMPLANTACAO.md) | produção: variáveis, nginx/HTTPS, processo, backup |
-| [docs/CONTRIBUINDO.md](docs/CONTRIBUINDO.md) | padrões de código e receitas ("como adiciono uma permissão/rota/tela?") |
